@@ -1,5 +1,7 @@
 # Design Patterns — Overview
 
+> **Standard definition** (Gang of Four): A design pattern is a general, reusable solution to a commonly occurring problem within a given context in software design.
+
 Design pattern kuch "naya" nahi hai — ye bas **common problems ke liye
 already-tested solutions** hain jinke naam rakh diye gaye hain, taaki log
 ek dusre se jaldi baat kar saken ("yaha Strategy pattern use karenge" bolna

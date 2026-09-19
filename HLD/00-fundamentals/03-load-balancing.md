@@ -1,5 +1,7 @@
 # Load Balancing
 
+> **Standard definition**: A component that distributes incoming network traffic across multiple backend servers to ensure no single server is overwhelmed, improving availability and reliability.
+
 **Ek line mein**: Ek "traffic police" jo incoming requests ko multiple
 servers ke beech **baant** deta hai, taaki koi ek server overload na ho
 aur agar ek server down ho jaye toh requests automatically doosre pe chali jayein.

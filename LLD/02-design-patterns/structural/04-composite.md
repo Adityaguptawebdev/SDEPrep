@@ -1,5 +1,7 @@
 # Composite Pattern
 
+> **Standard definition**: Compose objects into tree structures to represent part-whole hierarchies, so that clients can treat individual objects and compositions of objects uniformly.
+
 **Ek line mein**: "Single cheez" aur "cheezon ka group" — dono ko **same
 tarike se treat** karo, taaki caller ko fark hi na pade ki wo ek file se
 baat kar raha hai ya poore folder se.

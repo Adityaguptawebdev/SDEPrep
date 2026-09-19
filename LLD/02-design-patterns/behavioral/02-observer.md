@@ -1,5 +1,7 @@
 # Observer Pattern
 
+> **Standard definition**: Define a one-to-many dependency between objects so that when one object (subject) changes state, all its dependents (observers) are notified and updated automatically.
+
 **Ek line mein**: Ek object (`Subject`) mein kuch badle, toh usse "subscribe"
 kiye hue saare doosre objects (`Observers`) ko **automatically** pata chal
 jaye — bina Subject ko har observer ka naam individually yaad rakhne ki

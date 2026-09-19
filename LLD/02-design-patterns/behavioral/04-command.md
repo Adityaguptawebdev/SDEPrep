@@ -1,5 +1,7 @@
 # Command Pattern
 
+> **Standard definition**: Encapsulate a request as an object, thereby letting you parameterize clients with different requests, queue or log requests, and support undoable operations.
+
 **Ek line mein**: Kisi "action/request" ko ek **object** mein pack kar do
 (instead of seedha method call karne ke), taaki usse **store, queue, undo,
 ya baad mein execute** kiya ja sake.

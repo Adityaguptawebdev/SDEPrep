@@ -1,5 +1,7 @@
 # Message Queues & Async Processing
 
+> **Standard definition**: A component that stores messages produced by one service (producer) until they are retrieved and processed by another service (consumer), enabling asynchronous, decoupled communication between services.
+
 **Ek line mein**: Ek kaam jo **turant complete hone ki zarurat nahi** hai,
 usse ek "queue" mein daal do aur user ko turant response de do — kaam
 background mein baad mein ho jayega.

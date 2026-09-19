@@ -2,6 +2,8 @@
 
 ## SQL vs NoSQL — decision trick
 
+> **Standard definition**: *SQL (relational)* databases store data in fixed-schema tables with relationships enforced via foreign keys, queried with SQL. *NoSQL (non-relational)* databases store data in flexible formats (document, key-value, column, graph) and are built for horizontal scale.
+
 **Analogy**: **SQL** database ek **strict Excel sheet** jaisa hai — har row
 mein wahi columns hone chahiye, format fix hai, par tables ke beech
 **relationships** (jaise "ye order kis customer ka hai") bahut accurately
@@ -32,6 +34,8 @@ har entry alag shape ki ho sakti hai, likhna fast hai, par cross-checking
 
 ## ACID vs BASE
 
+> **Standard definition**: *ACID* (Atomicity, Consistency, Isolation, Durability) guarantees transactions complete fully or not at all, leaving data consistent. *BASE* (Basically Available, Soft state, Eventually consistent) favors availability over immediate consistency.
+
 - **ACID** (SQL ka guarantee) — **A**tomicity (sab ya kuch nahi), **C**onsistency,
   **I**solation, **D**urability. Trick: *"Transaction poori hogi ya bilkul nahi hogi — beech mein kuch nahi."*
 - **BASE** (NoSQL ka guarantee) — **B**asically **A**vailable, **S**oft state,
@@ -40,6 +44,8 @@ har entry alag shape ki ho sakti hai, likhna fast hai, par cross-checking
 Ye seedha [CAP theorem](02-latency-throughput-availability.md) se juda hai — SQL generally CP ki taraf jhukta hai, NoSQL generally AP ki taraf.
 
 ## Indexing — database ko fast banane ka #1 tarika
+
+> **Standard definition**: A data structure (typically a B-tree) built on one or more columns that speeds up data retrieval at the cost of additional storage and slower writes.
 
 **Analogy**: Kitab ka **index page** — bina index ke, ek topic dhoondhne ke
 liye **poori kitab** padhni padegi (page by page — ye "full table scan" hai).
@@ -61,6 +67,8 @@ CREATE INDEX idx_email ON users(email);
 > bhi update karna padta hai). Isliye **har column pe index nahi lagate**.
 
 ## Replication — same data, multiple copies (availability ke liye)
+
+> **Standard definition**: Maintaining multiple copies of the same data across different servers to improve availability, fault tolerance, and read scalability.
 
 **Analogy**: Bank ki ek hi branch nahi, kai branches — koi ek down ho toh
 doosri se kaam chal jaye.
@@ -84,6 +92,8 @@ chahiye utni bana lo, sab parallel reads serve karengi), aur agar Primary
 crash ho jaye, ek Replica ko Primary bana diya jata hai (failover).
 
 ## Sharding / Partitioning — jab ek database bhi kaafi nahi
+
+> **Standard definition**: Splitting a large dataset horizontally across multiple database instances (shards), so each holds only a subset of the data, enabling storage and write scalability.
 
 **Analogy**: Ek library mein 1 crore kitabein — sab ek hi almari mein
 nahi rakhoge, alphabet ke hisaab se **alag almariyan** banaoge (A-M ek

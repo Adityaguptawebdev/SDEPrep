@@ -1,5 +1,7 @@
 # Consistent Hashing
 
+> **Standard definition**: A distributed hashing technique that maps both data and servers onto a fixed hash space (conceptually a ring), so that adding or removing a server only remaps a small, bounded fraction of keys instead of the whole dataset.
+
 Ye topic sabse zyada "smart" lagta hai jab interview mein use ho — but concept
 samajhna aasan hai agar pehle **problem** clearly dekh lo.
 

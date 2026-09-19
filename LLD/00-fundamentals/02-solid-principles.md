@@ -20,6 +20,8 @@ Chalo ek ek karke, real example ke saath.
 
 ## S — Single Responsibility Principle (SRP)
 
+> **Standard definition**: A class should have only one reason to change — i.e., it should have only one responsibility.
+
 **Analogy**: Ek employee sochlo jo **cooking bhi karta hai aur accounting bhi**.
 Agar recipe badalni ho ya tax rule badalna ho — dono baar isi bande ko disturb
 karna padega. Behtar hai: ek cook, ek accountant — **alag reason se alag banda change hoga**.
@@ -51,6 +53,8 @@ class InvoiceRepository {
 ---
 
 ## O — Open/Closed Principle (OCP)
+
+> **Standard definition**: Software entities (classes, modules, functions) should be open for extension but closed for modification.
 
 **Analogy**: Mobile mein naya app install karna hota hai, tumhe phone ka
 operating system khol ke code change nahi karna padta. **Naya feature = naya
@@ -94,6 +98,8 @@ class ClearanceDiscount implements Discount {
 
 ## L — Liskov Substitution Principle (LSP)
 
+> **Standard definition**: Objects of a superclass should be replaceable with objects of a subclass without altering the correctness of the program.
+
 **Analogy**: Agar "Square" ko "Rectangle" ka child bana diya, toh problem ye
 hai ki Square mein width badlo toh height bhi apne aap badal jaani chahiye
 (kyunki square ke sab sides equal hote hain) — jo Rectangle ke normal behavior
@@ -133,6 +139,8 @@ rect.setHeight(10);
 ---
 
 ## I — Interface Segregation Principle (ISP)
+
+> **Standard definition**: Clients should not be forced to depend on interfaces/methods they do not use — prefer many small, specific interfaces over one large, general-purpose one.
 
 **Analogy**: Ek "All-in-one remote" socho jisme TV, AC, Fridge sab ke buttons
 hain — lekin tumhare paas sirf TV hai. Fridge/AC ke buttons bekaar padhe
@@ -174,6 +182,8 @@ class HumanWorker implements Workable, Eatable {
 ---
 
 ## D — Dependency Inversion Principle (DIP)
+
+> **Standard definition**: High-level modules should not depend on low-level modules — both should depend on abstractions. Abstractions should not depend on details; details should depend on abstractions.
 
 **Analogy**: Tum charger kharidte ho jo "USB-C port" support karta hai — tumhe
 fark nahi padta andar Samsung ki chip hai ya kisi aur ki, bas **port (contract)

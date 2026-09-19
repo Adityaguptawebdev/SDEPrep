@@ -1,5 +1,7 @@
 # Decorator Pattern
 
+> **Standard definition**: Attach additional responsibilities to an object dynamically, providing a flexible alternative to subclassing for extending functionality.
+
 **Ek line mein**: Kisi object ke upar naye features "layer by layer" wrap
 karke add karo, bina uski original class ko chhede aur bina naye subclasses
 ke dher lagaye.

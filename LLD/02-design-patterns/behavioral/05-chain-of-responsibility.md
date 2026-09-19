@@ -1,5 +1,7 @@
 # Chain of Responsibility Pattern
 
+> **Standard definition**: Avoid coupling the sender of a request to its receiver by giving more than one object a chance to handle the request — chain the receiving objects and pass the request along until one handles it.
+
 **Ek line mein**: Ek request ko handlers ki ek **line/chain** mein bhejo —
 har handler dekhta hai "kya main isse handle kar sakta hoon?", agar nahi
 toh agle handler ko pass kar deta hai — jab tak koi handle na kar le.

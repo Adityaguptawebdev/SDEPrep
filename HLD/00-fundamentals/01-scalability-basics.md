@@ -6,6 +6,8 @@ karega"**. Scalability yehi problem solve karti hai.
 
 ## Vertical vs Horizontal Scaling
 
+> **Standard definition**: *Vertical scaling (scale-up)* — increasing the capacity of a single machine (more CPU/RAM/disk). *Horizontal scaling (scale-out)* — adding more machines to distribute the load.
+
 **Analogy**: Ek dukaan pe bhीड़ badh gayi.
 - **Vertical scaling** = usi dukaan ko bada kar do (zyada counters, zyada staff ek hi building mein). Simple hai, par ek limit ke baad building aur badi nahi ho sakti.
 - **Horizontal scaling** = aur dukaanein khol do alag jagah pe. Har dukaan chhoti reh sakti hai, par jitni chahiye utni khol sakte ho — **koi upper limit nahi**.
@@ -24,6 +26,8 @@ karega"**. Scalability yehi problem solve karti hai.
 > pe bas aur servers add kar sakte hain."*
 
 ## Stateless vs Stateful servers — horizontal scaling ke liye zaroori concept
+
+> **Standard definition**: A *stateless* server holds no client session data between requests (any server instance can handle any request); a *stateful* server stores session/context data locally, tying a client to that specific instance.
 
 **Analogy**: **Stateful** server ek waiter jaisa hai jo **sirf apne** customer
 ko yaad rakhta hai — agar wo waiter chhutti pe chala jaye, uska customer

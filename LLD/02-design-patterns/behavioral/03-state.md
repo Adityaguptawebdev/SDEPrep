@@ -1,5 +1,7 @@
 # State Pattern
 
+> **Standard definition**: Allow an object to alter its behavior when its internal state changes — the object will appear to change its class.
+
 **Ek line mein**: Object ka behavior uski **current state** ke hisaab se
 badalna chahiye — aur har state apni khud ki class ho, taaki `if (state == X)`
 jaisi lambi chains na likhni padein.

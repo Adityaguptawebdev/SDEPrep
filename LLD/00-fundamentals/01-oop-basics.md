@@ -8,6 +8,8 @@ example** se samjhenge, phir ek **trick** doonga yaad rakhne ke liye, phir code
 
 ## 1. Encapsulation — "ATM machine" wala concept
 
+> **Standard definition**: Bundling data and the methods that operate on it into a single unit (a class), and restricting direct access to an object's internal state.
+
 **Analogy**: ATM machine ke andar kya ho raha hai (motor, cash counting,
 database check) — tumhe pata nahi hota aur pata hone ki zarurat bhi nahi.
 Tumhe sirf buttons milte hain: "Withdraw", "Balance Check". Andar ka logic
@@ -47,6 +49,8 @@ public class Account {
 ---
 
 ## 2. Abstraction — "TV remote" wala concept
+
+> **Standard definition**: Hiding implementation details and exposing only the essential features/behavior of an object through a well-defined interface.
 
 **Analogy**: Remote ka "Power" button dabate ho, TV on ho jata hai. Andar
 IR signal kaise jaata hai, TV ka circuit kaise kaam karta hai — tumhe nahi
@@ -94,6 +98,8 @@ Caller ko `UpiPayment` class ke andar ka code kabhi dekhna nahi pada. Agar kal
 
 Ye sabse important concept hai LLD interviews mein, aur sabse zyada log yahi
 galat karte hain.
+
+> **Standard definition**: *Inheritance* — a mechanism where a subclass acquires the properties and behavior of a superclass ("is-a" relationship). *Composition* — building complex objects by combining/holding references to other objects ("has-a" relationship).
 
 - **Inheritance** (`extends`) = **"is-a"** relationship. Jaise "Dog is an Animal".
   Ye ek **family relation** jaisa hai — permanent, blood relation jaisa.
@@ -174,6 +180,8 @@ energy source aaye, `Car` class ka ek line bhi badalna nahi padega.
 
 Ye wo confusion hai jo sabko hoti hai — "kab interface, kab abstract class?"
 
+> **Standard definition**: An *interface* declares a contract (method signatures, no state) that implementing classes must fulfill. An *abstract class* is a class that cannot be instantiated directly and can mix abstract methods (no body) with concrete methods and instance state.
+
 **Simple trick**: 
 - **Abstract class** = wahan use karo jaha classes **family** hain aur unme
   **kuch common code already hai** jo share karna hai.
@@ -216,6 +224,8 @@ class Airplane implements Flyable {
 ---
 
 ## 5. Polymorphism — isi sab ka fayda
+
+> **Standard definition**: The ability of an object to take many forms — a base-type reference can invoke behavior that resolves to the actual (derived) runtime type of the object it points to.
 
 Jab tum interface/abstract type ka reference rakhte ho (`PaymentStrategy p`),
 aur runtime pe actual object (`UpiPayment` ya `CreditCardPayment`) decide

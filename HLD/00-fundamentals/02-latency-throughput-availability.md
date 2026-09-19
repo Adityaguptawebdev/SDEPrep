@@ -2,6 +2,8 @@
 
 ## Latency vs Throughput — jo log confuse karte hain
 
+> **Standard definition**: *Latency* — the time taken to process a single request (end-to-end delay). *Throughput* — the number of requests a system can process per unit time.
+
 **Analogy**: Ek **pipe se paani** bhar rahe ho.
 - **Latency** = ek baltiy bharne mein kitna time laga (jaise 10 second). *"Speed of ONE request."*
 - **Throughput** = ek minute mein kitni baaltiyan bhar sakte ho (jaise 6 baaltiyan/min). *"Kitna kaam ek saath ho raha hai."*
@@ -13,6 +15,8 @@ Ek system **low latency** ho sakta hai par **low throughput** bhi (fast, but ek 
 - Throughput badhana ho → horizontal scaling, more parallel workers, queueing
 
 ## Availability — "system kitna % time up rehta hai"
+
+> **Standard definition**: The percentage of time a system remains operational and accessible over a given period, usually expressed as "N nines" (e.g., 99.9%).
 
 **Trick yaad rakhne ki — "9s ka game"**:
 
@@ -27,6 +31,8 @@ Ek system **low latency** ho sakta hai par **low throughput** bhi (fast, but ek 
 > of failure na ho**. Ek hi server pe sab depend na ho, replicas/backups hone chahiye.
 
 ## CAP Theorem — sabse zyada pucha jaane wala concept
+
+> **Standard definition**: In a distributed system, it is impossible to simultaneously guarantee all three of Consistency, Availability, and Partition Tolerance — you can only guarantee two at a time (in practice, a choice between C and A, since network partitions must be tolerated).
 
 **Ek line mein**: Distributed system (jaha data multiple machines pe hai)
 teeno cheezein **ek saath 100% nahi de sakta** — inme se sirf 2 choose kar

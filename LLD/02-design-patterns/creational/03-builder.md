@@ -1,5 +1,7 @@
 # Builder Pattern
 
+> **Standard definition**: Separate the construction of a complex object from its representation, so the same construction process can create different representations, step by step.
+
 **Ek line mein**: Jab kisi object ke bahut saare fields hain aur unme se kai
 **optional** hain, toh usse step-by-step, ek-ek karke set karke banao — ek
 lambi constructor call se nahi.

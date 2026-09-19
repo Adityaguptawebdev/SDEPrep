@@ -1,5 +1,7 @@
 # Caching
 
+> **Standard definition**: Storing copies of frequently accessed data in a faster-access storage layer (memory) to reduce latency and load on the primary data source.
+
 **Ek line mein**: Baar-baar use hone wala data, **slow storage (database)**
 se hata ke **fast storage (memory)** mein rakh do, taaki repeat requests
 turant serve ho jayein.

@@ -1,5 +1,7 @@
 # Strategy Pattern
 
+> **Standard definition**: Define a family of algorithms, encapsulate each one, and make them interchangeable — Strategy lets the algorithm vary independently from the clients that use it.
+
 **Ek line mein**: Ek kaam karne ke **multiple tarike (algorithms)** ho sakte
 hain — unhe alag-alag classes mein rakho, aur runtime pe jo chahiye wo switch
 kar sako, bina bade `if-else` ke.

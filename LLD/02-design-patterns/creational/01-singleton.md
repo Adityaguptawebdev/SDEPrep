@@ -1,5 +1,7 @@
 # Singleton Pattern
 
+> **Standard definition**: Ensure a class has only one instance, and provide a global point of access to it.
+
 **Ek line mein**: Poore program mein is class ka sirf **ek hi object** banega,
 sabko wahi ek object milega.
 

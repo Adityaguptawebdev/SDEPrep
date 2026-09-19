@@ -1,5 +1,7 @@
 # Facade Pattern
 
+> **Standard definition**: Provide a unified, higher-level interface to a set of interfaces in a subsystem, making the subsystem easier to use.
+
 **Ek line mein**: Ek complex system ke aage ek **simple, single entry-point**
 class laga do, taaki caller ko andar ke saare complicated parts se deal na
 karna pade.

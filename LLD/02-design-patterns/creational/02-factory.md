@@ -1,5 +1,7 @@
 # Factory Pattern
 
+> **Standard definition**: Define an interface for creating an object, but let subclasses (or a factory method) decide which class to instantiate.
+
 **Ek line mein**: Object banane ka kaam ek alag "factory" class ko de do,
 caller ko sirf ye pata ho "mujhe X chahiye", "kaise banega" uska sar dard
 factory ka hai.

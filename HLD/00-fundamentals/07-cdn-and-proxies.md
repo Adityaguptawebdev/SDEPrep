@@ -2,6 +2,8 @@
 
 ## CDN (Content Delivery Network)
 
+> **Standard definition**: A geographically distributed network of proxy servers that cache and serve content from a location closer to the user, reducing latency.
+
 **Ek line mein**: Static content (images, videos, CSS, JS) ki copies **duniya
 bhar ke servers** pe rakh do, taaki user ko **geographically sabse paas
 wale server** se milein — origin server (asli server) tak jaana hi na pade.
@@ -31,6 +33,8 @@ baar aur sabke liye same** hai — images, videos, CSS/JS files, static HTML.
 
 ### Forward Proxy — client ki taraf se khada hai
 
+> **Standard definition**: A server that sits between clients and the internet, forwarding client requests and hiding the client's identity from the destination server.
+
 **Analogy**: Office mein internet access ek **common gateway** se hota hai
 — company ko pata hai employee kya access kar raha hai, par **website ko
 pata nahi chalta asli employee kaun hai**, unhe sirf company ka proxy IP dikhta hai.
@@ -43,6 +47,8 @@ User ──▶ Forward Proxy ──▶ Internet (Website)
 Use cases: **anonymity** (VPN isi tarah kaam karta hai), company ka content filtering/monitoring.
 
 ### Reverse Proxy — server ki taraf se khada hai
+
+> **Standard definition**: A server that sits in front of backend servers, forwarding client requests to them and hiding the backend servers' identity from the client.
 
 **Analogy**: Hotel ka **reception desk** — guest ko sirf reception dikhta
 hai, par asal mein alag-alag departments (kitchen, housekeeping) uske order

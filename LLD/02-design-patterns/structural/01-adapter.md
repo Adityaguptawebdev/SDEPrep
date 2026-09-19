@@ -1,5 +1,7 @@
 # Adapter Pattern
 
+> **Standard definition**: Convert the interface of a class into another interface clients expect, letting classes work together that couldn't otherwise because of incompatible interfaces.
+
 **Ek line mein**: Do incompatible cheezon ke beech ek "translator" laga do,
 taaki wo saath mein kaam kar sakein bina ek dusre ko change kiye.
 

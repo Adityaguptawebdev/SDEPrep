@@ -1,5 +1,7 @@
 # UML Class Diagrams — Sirf Utna Jitna Interview Mein Chahiye
 
+> **Standard definition**: UML (Unified Modeling Language) class diagrams are a standard notation for visually representing classes, their attributes/methods, and the relationships (inheritance, association, aggregation, composition) between them.
+
 Poora UML seekhne ki zarurat nahi hai. Interview mein bas itna kaafi hai ki
 tum apna design **paper/whiteboard pe likh ke explain** kar sako.
 
