@@ -8,7 +8,7 @@ not just a single machine.
 ```
 00-fundamentals/                Core building blocks (scalability, caching, DBs, queues, CDN, consistent hashing)
 01-how-to-approach-any-problem.md   Universal interview framework
-02-problems/                    Case studies (URL Shortener, Rate Limiter, Chat App, etc.) — coming next
+02-problems/                    10 solved case studies (URL Shortener, Rate Limiter, Chat App, etc.)
 ```
 
 ## Progress
@@ -26,12 +26,17 @@ not just a single machine.
 ### Approach
 - [x] [How to approach any HLD problem](01-how-to-approach-any-problem.md)
 
-### Problems (case studies) — not started
-- [ ] URL Shortener
-- [ ] Rate Limiter
-- [ ] Chat Application
-- [ ] News Feed
-- [ ] Notification System
+### Problems (case studies)
+- [x] [URL Shortener](02-problems/01-url-shortener.md)
+- [x] [Rate Limiter](02-problems/02-rate-limiter.md)
+- [x] [Chat Application](02-problems/03-chat-application.md)
+- [x] [News Feed](02-problems/04-news-feed.md)
+- [x] [Notification System](02-problems/05-notification-system.md)
+- [x] [Web Crawler](02-problems/06-web-crawler.md)
+- [x] [Video Streaming Platform](02-problems/07-video-streaming.md)
+- [x] [Ride-Sharing App](02-problems/08-ride-sharing.md)
+- [x] [Distributed Unique ID Generator](02-problems/09-distributed-id-generator.md)
+- [x] [Search Autocomplete / Typeahead](02-problems/10-search-autocomplete.md)
 
 ## Interview approach (short version)
 
