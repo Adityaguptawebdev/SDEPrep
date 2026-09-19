@@ -27,16 +27,21 @@ Each problem under `03-problems/` follows the same template:
 ## Progress
 
 ### Fundamentals
-- [x] OOP basics (interview depth) — [00-fundamentals/01-oop-basics.md](00-fundamentals/01-oop-basics.md)
+- [x] OOP basics (interview depth, with analogies + tricks) — [00-fundamentals/01-oop-basics.md](00-fundamentals/01-oop-basics.md)
 - [x] SOLID principles — [00-fundamentals/02-solid-principles.md](00-fundamentals/02-solid-principles.md)
 
 ### UML
-- [ ] Class diagram notation
+- [x] Class diagram notation — [01-uml/01-class-diagram-basics.md](01-uml/01-class-diagram-basics.md)
 
 ### Design Patterns
-- [ ] Creational: Singleton, Factory, Builder
-- [ ] Structural: Adapter, Decorator, Facade, Composite
-- [ ] Behavioral: Strategy, Observer, State, Command, Chain of Responsibility
+- [x] Overview (3 categories + how to remember them) — [02-design-patterns/00-overview.md](02-design-patterns/00-overview.md)
+- [x] Creational: [Singleton](02-design-patterns/creational/01-singleton.md), [Factory](02-design-patterns/creational/02-factory.md), [Builder](02-design-patterns/creational/03-builder.md)
+- [x] Structural: [Adapter](02-design-patterns/structural/01-adapter.md), [Decorator](02-design-patterns/structural/02-decorator.md), [Facade](02-design-patterns/structural/03-facade.md), [Composite](02-design-patterns/structural/04-composite.md)
+- [x] Behavioral: [Strategy](02-design-patterns/behavioral/01-strategy.md), [Observer](02-design-patterns/behavioral/02-observer.md), [State](02-design-patterns/behavioral/03-state.md), [Command](02-design-patterns/behavioral/04-command.md), [Chain of Responsibility](02-design-patterns/behavioral/05-chain-of-responsibility.md)
+
+> Theory (fundamentals + UML + all 9 core patterns) is complete. Practice
+> problems below are done one at a time, interactively, since that's where
+> actually writing code is practiced — not dumped all at once.
 
 ### Problems
 - [ ] Parking Lot
