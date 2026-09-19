@@ -39,21 +39,22 @@ Each problem under `03-problems/` follows the same template:
 - [x] Structural: [Adapter](02-design-patterns/structural/01-adapter.md), [Decorator](02-design-patterns/structural/02-decorator.md), [Facade](02-design-patterns/structural/03-facade.md), [Composite](02-design-patterns/structural/04-composite.md)
 - [x] Behavioral: [Strategy](02-design-patterns/behavioral/01-strategy.md), [Observer](02-design-patterns/behavioral/02-observer.md), [State](02-design-patterns/behavioral/03-state.md), [Command](02-design-patterns/behavioral/04-command.md), [Chain of Responsibility](02-design-patterns/behavioral/05-chain-of-responsibility.md)
 
-> Theory (fundamentals + UML + all 9 core patterns) is complete. Practice
-> problems below are done one at a time, interactively, since that's where
-> actually writing code is practiced — not dumped all at once.
+> Theory (fundamentals + UML + all 9 core patterns) is complete.
 
 ### Problems
-- [ ] Parking Lot
-- [ ] Vending Machine
-- [ ] Library Management
-- [ ] Tic-Tac-Toe
-- [ ] Elevator System
-- [ ] ATM
-- [ ] Snake & Ladder
-- [ ] LRU Cache
-- [ ] Splitwise
-- [ ] BookMyShow / Ticket Booking
+- [x] [How to approach any LLD problem (framework)](03-problems/00-how-to-approach-any-problem.md)
+- [x] [Parking Lot](03-problems/01-parking-lot.md)
+- [x] [Vending Machine](03-problems/02-vending-machine.md)
+- [x] [Tic-Tac-Toe](03-problems/03-tic-tac-toe.md)
+- [x] [Library Management](03-problems/04-library-management.md)
+- [x] [Elevator System](03-problems/05-elevator-system.md)
+- [x] [ATM](03-problems/06-atm.md)
+- [x] [Snake & Ladder](03-problems/07-snake-and-ladder.md)
+- [x] [LRU Cache](03-problems/08-lru-cache.md)
+- [x] [Splitwise](03-problems/09-splitwise.md)
+- [x] [BookMyShow / Ticket Booking](03-problems/10-bookmyshow.md)
+
+### Stretch problems (try on your own next, using the framework above)
 - [ ] Cab Booking (Uber-like)
 - [ ] Chess
 - [ ] Rate Limiter
