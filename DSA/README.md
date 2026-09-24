@@ -28,8 +28,10 @@ common galtiyan, aur **Easy → Hard** LeetCode practice.
 ## Part 2 — Patterns (syllabus ke baad, problem pehchanne ke liye)
 
 20 must-know DSA patterns — each with a standard definition, a Hinglish
-analogy/trick, one fully-commented Java code example, and 5+ LeetCode
-practice problems (with links).
+analogy/trick, **kaise pehchano** (sawaal ki bhasha → variation), saari
+**variations** ek flowchart/table mein, ek chhoti **"code likhne ki recipe"**
+(fill-in templates), commented Java for every variation, aur variation-wise
+**Easy → Hard** LeetCode practice (with links).
 
 ### Patterns (in suggested practice order)
 
