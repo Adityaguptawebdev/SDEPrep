@@ -340,7 +340,7 @@ public int maxProfit(int[] prices) {
     return profit;
 }
 
-// Maximum Subarray (Kadane)
+// Maximum Subarray (Kadane) — poori Kadane note: 21-kadanes-algorithm.md
 public int maxSubArray(int[] nums) {
     int best = nums[0], cur = 0;
     for (int x : nums) {

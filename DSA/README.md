@@ -5,7 +5,7 @@ Do hisse hain — pehle **Syllabus** (concept zero se, basics → advance), phir
 
 ```
 00-syllabus/    29 topics, 7 units — Arrays se Graphs, Trees, Recursion, DP, Segment Tree tak (sequential)
-01-patterns/    20 must-know patterns — Sliding Window se Graph Algorithms tak
+01-patterns/    21 must-know patterns — Sliding Window se Kadane's Algorithm tak
 ```
 
 ## Part 1 — Syllabus (start se end tak, pehle ye padho)
@@ -27,7 +27,7 @@ common galtiyan, aur **Easy → Hard** LeetCode practice.
 
 ## Part 2 — Patterns (syllabus ke baad, problem pehchanne ke liye)
 
-20 must-know DSA patterns — each with a standard definition, a Hinglish
+21 must-know DSA patterns — each with a standard definition, a Hinglish
 analogy/trick, **kaise pehchano** (sawaal ki bhasha → variation), saari
 **variations** ek flowchart/table mein, ek chhoti **"code likhne ki recipe"**
 (fill-in templates), commented Java for every variation, aur variation-wise
@@ -55,6 +55,7 @@ analogy/trick, **kaise pehchano** (sawaal ki bhasha → variation), saari
 18. [Trie (Prefix Tree)](01-patterns/18-trie.md)
 19. [Dynamic Programming](01-patterns/19-dynamic-programming.md)
 20. [Graph Algorithms](01-patterns/20-graph-algorithms.md)
+21. [Kadane's Algorithm (Maximum Subarray)](01-patterns/21-kadanes-algorithm.md)
 
 > Note: a couple of linked LeetCode problems (e.g. Alien Dictionary) are
 > premium/locked — marked with 🔒 where that's the case. Everything else

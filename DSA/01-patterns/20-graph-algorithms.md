@@ -587,35 +587,4 @@ public boolean possibleBipartition(int n, int[][] dislikes) {
 
 **Kaise practice karein**: Har problem pe pehle likho — *"Graph directed/weighted? Kaunsa algorithm (flowchart)? Structure (queue / heap / rounds)? Relax rule? Answer kahan?"* — phir code.
 
----
-
-## Sab 20 patterns ho gaye
-
-Ye 20 patterns hi 90% LeetCode problems cover karte hain — jab bhi koi naya problem dekho, sabse pehle poocho **"ye kaunse pattern jaisa lag raha hai?"** Pattern pehchan lo, phir uski **recipe** (har note mein "Code likhne ki recipe") se code likhna bahut aasan ho jata hai.
-
-**Sawaal ki bhasha → pattern (ek nazar mein):**
-
-| Sawaal mein ye dikhe | Pattern |
-|---|---|
-| contiguous **subarray/substring** + window condition | [01 Sliding Window](01-sliding-window.md) |
-| **sorted** array, pair/triplet, ya dono taraf se | [02 Two Pointers](02-two-pointers.md) |
-| **linked list** cycle / middle / nth from end | [03 Fast & Slow](03-fast-slow-pointers.md) |
-| **intervals** overlap / merge / rooms | [04 Merge Intervals](04-merge-intervals.md) |
-| `1..n` ka array, **missing / duplicate** | [05 Cyclic Sort](05-cyclic-sort.md) |
-| **k-th** / top k / k closest | [06 Top K Elements](06-top-k-elements.md) |
-| **range sum** / subarray sum = k | [07 Prefix Sum](07-prefix-sum.md) |
-| **single number**, XOR, bits, power of 2 | [08 Bit Manipulation](08-bit-manipulation.md) |
-| **sorted / rotated** array mein dhoondo | [09 Binary Search](09-binary-search.md) |
-| "**minimum X jo condition satisfy kare**" (answer pe search) | [10 Binary Search on Answer](10-binary-search-on-answer.md) |
-| **shortest steps** / level order / multi-source | [11 BFS](11-bfs.md) |
-| **islands**, tree property, saare paths, cycle | [12 DFS](12-dfs.md) |
-| **saare** subsets / permutations / N-Queens | [13 Backtracking](13-backtracking.md) |
-| local best choice + sort / heap | [14 Greedy](14-greedy.md) |
-| **connected groups**, extra edge, Kruskal | [15 Union-Find](15-union-find.md) |
-| **brackets**, expression, undo | [16 Stack](16-stack.md) |
-| **next greater/smaller**, histogram | [17 Monotonic Stack](17-monotonic-stack.md) |
-| **prefix** / autocomplete / dictionary | [18 Trie](18-trie.md) |
-| **min / max / count ways** + overlapping subproblems | [19 Dynamic Programming](19-dynamic-programming.md) |
-| **dependencies**, weighted shortest path, MST | [20 Graph Algorithms](20-graph-algorithms.md) |
-
-Practice order suggestion: Sliding Window → Two Pointers → Fast/Slow → Prefix Sum → Binary Search → Stack → Monotonic Stack → BFS/DFS → Backtracking → Greedy → Union-Find → Trie → Heap/Top-K → DP → Graph Algorithms — ye roughly easy se hard ka order hai.
+Agla: [21-kadanes-algorithm.md](21-kadanes-algorithm.md)

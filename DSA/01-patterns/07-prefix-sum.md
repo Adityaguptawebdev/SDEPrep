@@ -49,6 +49,7 @@ sum(1..3) = nums[1] + nums[2] + nums[3] = 1 + 4 + 1 = 6
 ### ❌ Kab NAHI
 - Array **baar-baar badalta** hai (point updates) aur range query bhi → [Fenwick / Segment Tree](../00-syllabus/07-advanced/28-segment-tree-and-fenwick.md).
 - Sirf **ek baar** ek subarray ka sum chahiye → seedha loop.
+- **Maximum / minimum sum** of a contiguous subarray (sum = k nahi) → [Kadane's Algorithm](21-kadanes-algorithm.md).
 
 ---
 

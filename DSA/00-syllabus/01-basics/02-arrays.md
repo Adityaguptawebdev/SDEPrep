@@ -167,6 +167,8 @@ best    :  -2   1    1   4    4   5   6    6   6     → answer 6  (subarray [4,
 
 **Line by line samjho**: `current` = "jo subarray **index i pe khatam** ho raha hai, uska best sum". Ya toh `nums[i]` akela (pichhla sum negative tha, chhod diya), ya `current + nums[i]` (pichhle ko aage badhaya). `best` poori journey ka maximum yaad rakhta hai. **Ek hi pass → O(n)**, extra space O(1).
 
+📌 Kadane ki saari variations (min, circular, product, one deletion, 2D) ek jagah: [Kadane's Algorithm (pattern)](../../01-patterns/21-kadanes-algorithm.md).
+
 ## Code example 5 — 2D Array (Matrix)
 
 ```
