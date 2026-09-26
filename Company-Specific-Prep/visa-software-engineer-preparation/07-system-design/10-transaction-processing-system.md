@@ -120,7 +120,7 @@ Write-heavy data → append-only, partitioned tables or an LSM-based store (Cass
 3. "One region goes down" → global LB shifts traffic, capacity headroom, data replication.
 4. "Two authorizations race on the same card limit" → conditional updates / single writer per account.
 5. "The table grows by 1 TB a day" → partitioning, tiered storage, archival, read models.
-6. (EC version) "How would **your** project handle 100× traffic?" → [11 — mini designs](11-mini-designs-asked-at-0-2-yoe.md#4-your-project-at-10-100-scale).
+6. (EC version) "How would **your** project handle 100× traffic?" → [11 — mini designs](11-mini-designs-asked-at-0-2-yoe.md#4-your-project-at-10x-to-100x-scale).
 
 **🗣️ Interview mein aise bolo**: "Authorization path real-time aur chhota rakhunga — idempotency, risk score, limit check, routing — sab timeouts ke saath. Har event Kafka log mein, jisse storage, fraud, settlement sab alag se build hote hain. Data card token se partition, ek card ke events ordered. Region fail ho toh traffic doosre region pe, aur jo outcomes unknown rahe unhe reconciliation theek karta hai."
 
