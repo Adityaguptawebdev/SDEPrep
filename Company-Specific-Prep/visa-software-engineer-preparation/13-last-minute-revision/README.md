@@ -28,20 +28,22 @@
 | Java/OS | Process vs thread · multithreading basics | 4 | [Java 4 §1](../04-java/04-multithreading-and-concurrency.md#1-process-vs-thread--the-os-questions-that-come-with-it) |
 | Spring | Stereotype annotations / `@SpringBootApplication` / `@Transactional` | 5 | [Spring 1](../05-spring-boot/01-ioc-di-beans-annotations.md) |
 | Spring | DI / IoC / autowiring · filters vs interceptors · REST CRUD · microservices · Kafka | 4 each | [Spring README](../05-spring-boot/README.md) |
+| Security | Network security · HTTPS / TLS basics | 4 | [Spring 4 §5](../05-spring-boot/04-security-authn-authz-jwt.md#5-https--tls-in-60-seconds-network-security-questions) |
 | Spring | AuthN vs AuthZ · `@Transactional` rollback | 3 each | [Spring 4](../05-spring-boot/04-security-authn-authz-jwt.md), [Spring 3](../05-spring-boot/03-data-jpa-transactions-pooling.md) |
 | DB | Writing one SQL query live (GROUP BY/HAVING, duplicates, 2nd highest, schema + count) | 9+ | [DB 2](../06-database-sql/02-reported-sql-problems.md) |
 | DB | SQL vs NoSQL · joins · indexes/optimisation · keys | 4, 4, 4, 3 | [DB README](../06-database-sql/README.md) |
-| Design | Caching / custom cache / LRU | 5 | [SD 9](../07-system-design/09-cache-with-ttl.md), [LLD 1](../08-lld/01-custom-cache-lru-ttl.md) |
+| Design | Caching / custom cache / LRU | 5 (3 SR, NCG, US OA) | [SD 9](../07-system-design/09-cache-with-ttl.md), [LLD 1](../08-lld/01-custom-cache-lru-ttl.md) |
 | Design | Payment service / UPI / payment system (senior) | 3 | [SD 2](../07-system-design/02-payment-service.md) |
 | Design | Draw your project and scale it | 3 (EC) | [SD 11 §4](../07-system-design/11-mini-designs-asked-at-0-2-yoe.md#4-your-project-at-10x-to-100x-scale) |
 | Frontend | Fetch an API with headers/token · API call from your project | 3 | [JS §4](../09-javascript-react/01-javascript.md#4-fetch-data-from-an-api--headers-auth-token-timeout-errors-lc-7501159-lc-7562552-jt-2024-09) |
 | HM | Ownership · challenging situation · collaboration/disagreement · why Visa | 3+ each | [Behavioral](../11-behavioral/README.md) |
 | HM | GenAI / AI tools you use | 5 (3 EC) | [Behavioral bank](../11-behavioral/README.md#question-bank-with-frameworks) |
+| Stretch (senior-only HIGH) | Stock I/II/cooldown · `synchronized`/locks · thread pools/`CompletableFuture` · JPA/Hibernate | 3 each (SR) | [DSA 7 §3](../03-dsa/07-dynamic-programming.md#3-best-time-to-buy-and-sell-stock--i-ii-with-cooldown-senior-reports), [Java 4](../04-java/04-multithreading-and-concurrency.md), [Spring 3 §1](../05-spring-boot/03-data-jpa-transactions-pooling.md#1-jpa-vs-hibernate-vs-spring-data-jpa) |
 
 ## MEDIUM-FREQUENCY (2 reports)
 
 - OA: odd count of zeros · memory allocator (LC 2502) · state array `L`/`C<i>` · e-scooters · LC 3043 longest common prefix · length-3 substrings · "subarrays with at least k …" · colour/bubble pop simulation · Trie question.
-- DSA: search in rotated array · sliding window maximum · Two Sum/3Sum · palindromes · merge sort from scratch · merge/non-overlapping intervals · top/left/right view (senior).
+- DSA: search in rotated array · sliding window maximum · Two Sum/3Sum · palindromes · merge sort from scratch · merge/non-overlapping intervals · top/left/right view (senior) · parsing big files / many files in parallel.
 - Java: static vs instance · encapsulation vs abstraction · constructors/`super()` · deadlock · checked vs unchecked · HashMap vs ConcurrentHashMap.
 - Spring/DB: API versioning (senior) · ShedLock / cron on many instances (senior) · ACID · second-highest salary · window functions · vertical vs horizontal scaling · data integrity & ordering.
 - Design: TinyURL (incl. 1.5-YOE selected) · rate limiter · notification system · food/order delivery (NCG).
@@ -50,6 +52,6 @@
 
 - **EC reports**: rate-limit IPs from a log + GB follow-up · Aggressive Cows variant · Number of Matching Subsequences · Word Break · Number of Islands · Letter Combinations · strings-as-graph cycle · journey from city pairs · pairs a+b=n in O(1) · two-team elimination · custom stack with encapsulation · Maps + PriorityQueue data processing · live visitor count · DispatcherServlet · prototype-in-singleton · React lifecycle + error handling · Java 17 features · heap vs stack with `super()` · "monotonous job" question.
 - **Campus/intern**: bricks greedy vs DP · lock toggling · validate parentheses without a stack · count repeated words · single number II · min depth · print palindromic substrings · animal inheritance modelling · Swiggy architecture · DeFi/crypto opinion · C memory functions.
-- **Senior/Staff only**: Bag of Tokens · Hand of Straights in O(n) · LIS O(n log n) · Min Window Substring · Combination Sum III · Group Anagrams · BookMyShow concurrent booking · unique transaction id · planet-scale redesign · saga/strangler fig · TLS/mTLS deep-dive · PUT vs PATCH · marker interface · isolation levels.
+- **Senior/Staff only**: Bag of Tokens · Hand of Straights in O(n) · LIS O(n log n) · Min Window Substring · Combination Sum III · Group Anagrams · BookMyShow concurrent booking · unique transaction id · planet-scale redesign · saga/strangler fig · PUT vs PATCH · marker interface · isolation levels.
 
 Next: [Last 7 days before the Visa interview →](01-last-7-days-plan.md)
