@@ -1,0 +1,49 @@
+.progress {
+  max-width: 480px;
+}
+
+.progress-track {
+  height: 20px;
+  overflow: hidden;
+  background: #e5e7eb;
+  border-radius: 999px;
+}
+
+.progress-fill {
+  height: 100%;
+  background: #2563eb;
+  transition: width 0.2s;
+}
+
+.progress-fill.complete {
+  background: #16a34a;
+}
+
+.progress-status {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 12px 0;
+}
+
+/* Spinner: a circle with one coloured side, rotating forever */
+.progress-spinner {
+  width: 18px;
+  height: 18px;
+  border: 3px solid #d1d5db;
+  border-top-color: #2563eb;
+  border-radius: 50%;
+  animation: progress-spin 0.8s linear infinite;
+}
+
+@keyframes progress-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.progress-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}

@@ -1,0 +1,43 @@
+.dynamic {
+  max-width: 480px;
+}
+
+.dynamic-hint {
+  margin-top: 0;
+  color: #6b7280;
+}
+
+.dynamic-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.dynamic-row label {
+  min-width: 56px;
+  font-weight: 600;
+}
+
+.dynamic-row input {
+  flex: 1;
+  min-width: 0;
+}
+
+.dynamic-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 14px;
+}
+
+.dynamic-result {
+  margin-top: 16px;
+  padding: 12px;
+  background: #f3f4f6;
+  border-radius: 8px;
+}
+
+.dynamic-result pre {
+  margin: 8px 0 0;
+  white-space: pre-wrap;
+}

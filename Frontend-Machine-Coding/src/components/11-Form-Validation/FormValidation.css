@@ -1,0 +1,32 @@
+.validation-form {
+  max-width: 400px;
+}
+
+.validation-field {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 14px;
+}
+
+.validation-field label {
+  margin-bottom: 4px;
+  font-weight: 600;
+}
+
+.validation-hint,
+.validation-error {
+  margin: 4px 0 0;
+  font-size: 0.85rem;
+}
+
+.validation-hint {
+  color: #6b7280;
+}
+
+.validation-error {
+  color: #dc2626;
+}
+
+.validation-success h3 {
+  margin-top: 0;
+}

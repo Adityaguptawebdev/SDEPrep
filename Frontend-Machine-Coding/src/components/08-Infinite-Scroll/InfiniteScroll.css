@@ -1,0 +1,31 @@
+.scroll-info {
+  margin-top: 0;
+  color: #6b7280;
+}
+
+/* A fixed height + overflow-y: auto makes this box scroll on its own */
+.scroll-box {
+  max-width: 420px;
+  height: 360px;
+  overflow-y: auto;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+}
+
+.scroll-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.scroll-list li {
+  padding: 14px 16px;
+  border-bottom: 1px solid #f3f4f6;
+}
+
+.scroll-status {
+  margin: 0;
+  padding: 14px;
+  text-align: center;
+  color: #6b7280;
+}

@@ -1,0 +1,29 @@
+.tabs {
+  max-width: 560px;
+}
+
+.tabs-list {
+  display: flex;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+/* A transparent bottom border that turns blue on the active tab */
+.tabs-button {
+  margin-bottom: -1px;
+  padding: 10px 16px;
+  color: #6b7280;
+  background: none;
+  border: none;
+  border-bottom: 2px solid transparent;
+  border-radius: 0;
+}
+
+.tabs-button.active {
+  font-weight: 600;
+  color: #2563eb;
+  border-bottom-color: #2563eb;
+}
+
+.tabs-panel {
+  padding: 16px 4px;
+}

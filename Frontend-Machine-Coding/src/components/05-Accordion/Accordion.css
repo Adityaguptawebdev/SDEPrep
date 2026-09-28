@@ -1,0 +1,31 @@
+.accordion {
+  max-width: 600px;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+}
+
+.accordion-item + .accordion-item {
+  border-top: 1px solid #e5e7eb;
+}
+
+.accordion-question {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 14px 16px;
+  font-weight: 600;
+  text-align: left;
+  border: none;
+  border-radius: 0;
+}
+
+.accordion-icon {
+  font-size: 1.2rem;
+  color: #2563eb;
+}
+
+.accordion-answer {
+  margin: 0;
+  padding: 0 16px 14px;
+  color: #4b5563;
+}

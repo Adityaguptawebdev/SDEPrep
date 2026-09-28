@@ -1,0 +1,62 @@
+/* Class names start with "todo-" because all CSS files in Vite are global */
+
+.todo-app {
+  max-width: 520px;
+}
+
+.todo-form {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+/* min-width: 0 lets an input shrink inside a flex row */
+.todo-form input {
+  flex: 1;
+  min-width: 0;
+}
+
+.todo-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.todo-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 0;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.todo-text {
+  flex: 1;
+  word-break: break-word;
+}
+
+.todo-text.completed {
+  color: #9ca3af;
+  text-decoration: line-through;
+}
+
+.todo-edit-form {
+  display: flex;
+  flex: 1;
+  gap: 8px;
+}
+
+.todo-edit-form input {
+  flex: 1;
+  min-width: 0;
+}
+
+.todo-delete-button {
+  color: #dc2626;
+}
+
+.todo-empty,
+.todo-count {
+  margin: 12px 0 0;
+  color: #6b7280;
+}

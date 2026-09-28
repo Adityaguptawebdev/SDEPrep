@@ -1,0 +1,24 @@
+.counter {
+  text-align: center;
+}
+
+.counter-value {
+  margin: 0 0 16px;
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+.counter-value.negative {
+  color: #dc2626;
+}
+
+.counter-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+
+.counter-buttons button {
+  min-width: 64px;
+  font-size: 1.2rem;
+}

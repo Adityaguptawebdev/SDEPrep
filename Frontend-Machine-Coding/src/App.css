@@ -1,0 +1,123 @@
+/* Global styles: used by the dashboard and by every problem */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  line-height: 1.5;
+  color: #1f2937;
+  background: #f4f5f7;
+}
+
+button {
+  padding: 8px 14px;
+  font: inherit;
+  color: inherit;
+  background: #ffffff;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* brightness() darkens any button colour, so components don't need their own hover rule */
+button:hover {
+  filter: brightness(0.95);
+}
+
+button:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+  filter: none;
+}
+
+/* Main action button, shared by all problems */
+.primary-button {
+  color: #ffffff;
+  background: #2563eb;
+  border-color: #2563eb;
+}
+
+input,
+select,
+textarea {
+  padding: 8px 10px;
+  font: inherit;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+}
+
+/* Page layout */
+
+.app {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 32px 16px;
+}
+
+h1 {
+  margin: 0 0 4px;
+}
+
+.subtitle {
+  margin: 0 0 24px;
+  color: #6b7280;
+}
+
+/* Dashboard */
+
+.dashboard-section {
+  margin-bottom: 24px;
+}
+
+.dashboard-section h2 {
+  margin: 0 0 10px;
+  font-size: 0.85rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #6b7280;
+}
+
+.problem-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 12px;
+}
+
+.problem-card {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 14px;
+  text-align: left;
+}
+
+.problem-number {
+  font-weight: 700;
+  color: #2563eb;
+}
+
+/* Problem page */
+
+.back-button {
+  margin-bottom: 16px;
+}
+
+.problem-title {
+  margin-bottom: 16px;
+}
+
+.problem-box {
+  padding: 24px;
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+}
+
+@media (max-width: 480px) {
+  .problem-box {
+    padding: 16px;
+  }
+}

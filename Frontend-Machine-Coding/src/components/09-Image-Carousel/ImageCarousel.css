@@ -1,0 +1,61 @@
+.carousel {
+  max-width: 600px;
+}
+
+/* position: relative so the arrows can be placed on top of the image */
+.carousel-frame {
+  position: relative;
+}
+
+.carousel-image {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border-radius: 8px;
+}
+
+.carousel-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  font-size: 1.6rem;
+  line-height: 1;
+  background: rgba(255, 255, 255, 0.85);
+  border: none;
+  border-radius: 50%;
+}
+
+.carousel-arrow.left {
+  left: 10px;
+}
+
+.carousel-arrow.right {
+  right: 10px;
+}
+
+.carousel-caption {
+  text-align: center;
+  color: #4b5563;
+}
+
+.carousel-dots {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+
+.carousel-dot {
+  width: 12px;
+  height: 12px;
+  padding: 0;
+  background: #d1d5db;
+  border: none;
+  border-radius: 50%;
+}
+
+.carousel-dot.active {
+  background: #2563eb;
+}

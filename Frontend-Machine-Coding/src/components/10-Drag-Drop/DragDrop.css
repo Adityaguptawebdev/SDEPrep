@@ -1,0 +1,48 @@
+.dnd-hint {
+  margin-top: 0;
+  color: #6b7280;
+}
+
+.dnd-board {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 12px;
+}
+
+.dnd-column {
+  min-height: 220px;
+  padding: 12px;
+  background: #f3f4f6;
+  border-radius: 8px;
+}
+
+.dnd-column h3 {
+  margin: 0 0 10px;
+  font-size: 1rem;
+}
+
+.dnd-count {
+  font-size: 0.8rem;
+  color: #6b7280;
+}
+
+.dnd-card {
+  margin-bottom: 8px;
+  padding: 10px 12px;
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 6px;
+  cursor: grab;
+}
+
+.dnd-card.dragging {
+  opacity: 0.4;
+}
+
+.dnd-empty {
+  padding: 16px;
+  text-align: center;
+  color: #9ca3af;
+  border: 2px dashed #d1d5db;
+  border-radius: 6px;
+}

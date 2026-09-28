@@ -1,0 +1,20 @@
+.rating-stars {
+  display: inline-flex;
+}
+
+.rating-star {
+  padding: 0 4px;
+  font-size: 2.4rem;
+  line-height: 1;
+  color: #d1d5db;
+  background: none;
+  border: none;
+}
+
+.rating-star.filled {
+  color: #f59e0b;
+}
+
+.rating-text {
+  color: #4b5563;
+}
