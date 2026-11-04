@@ -2,7 +2,7 @@
 
 Built from **public candidate reports** (Glassdoor, LeetCode Discuss, GeeksforGeeks, Jointaro) and job listings. Research date: **4 Nov 2026**. All sources, with links, are in [sources.md](sources.md).
 
-> ⚠️ Very few people have written about the **apprenticeship** itself (about 6 reports). So [questions.md](questions.md) also lists questions from Amex India **entry-level tech roles** (intern, Engineer Trainee, fresher SDE). These use the same coding test (Codility/HackerRank) and the same kind of interviews. Each question is tagged with its role.
+> ⚠️ Very few people have written about the **apprenticeship** itself (about 6 reports). So these notes also list questions from Amex India **entry-level tech roles** (intern, Engineer Trainee, fresher SDE). These use the same coding test (Codility/HackerRank) and the same kind of interviews. Each question is tagged with its role.
 
 ## Program (from job listings, not confirmed by Amex)
 
@@ -32,16 +32,22 @@ Online DSA test (HackerRank) ──► Technical + Managerial (resume + "tell th
 
 ## If you have little time, do this order
 
-1. **OA practice:** the 6 coding questions in [questions.md §2](questions.md#2-online-assessment-coding-codility--hackerrank) (Codility style, 3 Q / 90 min).
-2. **Java output questions** ([§6](questions.md#6-output-prediction-practice-my-addition)): the apprentice round literally asks "tell me the output".
-3. **SQL:** 2nd highest salary, Nth highest, joins, GROUP BY + HAVING, TRUNCATE vs DROP.
-4. **OOP + DBMS:** 4 pillars, overloading vs overriding, ACID, normalization, SQL vs NoSQL.
-5. **Your project:** be ready for a 20–25 min deep dive (why this DB, problems faced, how it works end to end).
-6. **Why Amex:** know how Amex earns money (merchant discount fee, card fees, interest) and what happens when a card is swiped.
+1. **OA practice:** the 11 coding questions in [01-oa-coding.md](01-oa-coding.md) (Codility style, 3 Q / 90 min).
+2. **"Tell the output":** the 7 Java traps in [05-output-hr-puzzles.md](05-output-hr-puzzles.md). The apprentice round literally asks for the output.
+3. **SQL:** 2nd highest and Nth highest salary, joins, GROUP BY + HAVING, TRUNCATE vs DROP → [03-sql-dbms.md](03-sql-dbms.md).
+4. **OOP + DBMS + Java GC:** 4 pillars, overloading vs overriding, ACID, normalization, stack vs heap → [04-oop-os-cn-java.md](04-oop-os-cn-java.md).
+5. **Live DSA:** Climbing Stairs, Kadane, Merge Sort, Kth largest → [02-interview-dsa.md](02-interview-dsa.md).
+6. **Your project + Why Amex:** a 20–25 min project deep dive, Amex's revenue model, and the card-swipe flow.
 
-## Files
+## Files (every question has an easy answer)
 
 | File | What's inside |
 |---|---|
-| [questions.md](questions.md) | all reported questions: OA, DSA, SQL, CS, Java output practice, HR |
+| [01-oa-coding.md](01-oa-coding.md) | 11 real OA questions + 3 easy apprentice Codility ones, with tested Java |
+| [02-interview-dsa.md](02-interview-dsa.md) | live-round DSA: Climbing Stairs, Kadane, Merge Sort, Kth element, linked list... |
+| [03-sql-dbms.md](03-sql-dbms.md) | SQL queries (tested) + DBMS theory: ACID, normalization, indexing, CAP, locking |
+| [04-oop-os-cn-java.md](04-oop-os-cn-java.md) | OOP, OS, OSI/HTTPS, Java garbage collection + memory |
+| [05-output-hr-puzzles.md](05-output-hr-puzzles.md) | "tell the output" practice, HR answers, puzzles |
 | [sources.md](sources.md) | every source with a link |
+
+**Code check:** the OA Java answers passed 24,212 random brute-force checks. The DSA code, SQL (SQLite), Java output snippets (JDK 26) and the C++ snippet were all run.
