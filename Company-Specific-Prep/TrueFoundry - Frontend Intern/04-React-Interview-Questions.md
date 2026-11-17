@@ -236,12 +236,16 @@ const Cell = React.memo(function Cell({ value, onClick }) {
 ```jsx
 // Controlled: React state is the source of truth
 const [email, setEmail] = useState("");
-<input value={email} onChange={(e) => setEmail(e.target.value)} />
+const controlled = <input value={email} onChange={(e) => setEmail(e.target.value)} />;
 
 // Uncontrolled: the DOM keeps the value; read it when needed
 const fileRef = useRef(null);
-<input type="file" ref={fileRef} />  // file inputs are always uncontrolled
-<input defaultValue="gpt-4o" name="model" />
+const uncontrolled = (
+  <>
+    <input type="file" ref={fileRef} /> {/* file inputs are always uncontrolled */}
+    <input defaultValue="gpt-4o" name="model" />
+  </>
+);
 ```
 
 ✅ **Answer:** "In a controlled input, the value comes from React state and every change goes through `onChange`, so I can validate, format and disable buttons instantly. In an uncontrolled input, the DOM holds the value and I read it with a ref or `FormData` on submit — less code and fewer re-renders, good for simple forms and required for file inputs. Libraries like React Hook Form use uncontrolled inputs for performance."

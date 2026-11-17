@@ -77,8 +77,10 @@ export default async function ModelsPage() {
   const models = await fetch("https://api.example.com/models").then((r) => r.json());
   return <ModelFilter models={models} />;   // pass data down to the interactive part
 }
+```
 
-// app/models/ModelFilter.tsx — Client Component
+```tsx
+// app/models/ModelFilter.tsx — Client Component ("use client" must be the first statement in the file)
 "use client";
 import { useState } from "react";
 export default function ModelFilter({ models }: { models: { id: string; name: string }[] }) {
@@ -189,7 +191,9 @@ export async function createKey(formData: FormData) {
 export default function Loading() {
   return <div className="h-64 animate-pulse rounded-xl bg-slate-200" />;
 }
+```
 
+```tsx
 // app/gateway/error.tsx → must be a client component
 "use client";
 export default function Error({ error, reset }: { error: Error & { digest?: string }; reset: () => void }) {
@@ -200,11 +204,19 @@ export default function Error({ error, reset }: { error: Error & { digest?: stri
     </div>
   );
 }
+```
 
-// Granular streaming: each widget has its own boundary
+```tsx
+// app/gateway/page.tsx — granular streaming: each widget has its own boundary
 import { Suspense } from "react";
-<Suspense fallback={<CardSkeleton />}><CostByModel /></Suspense>
-<Suspense fallback={<TableSkeleton />}><RecentLogs /></Suspense>
+export default function GatewayPage() {
+  return (
+    <>
+      <Suspense fallback={<CardSkeleton />}><CostByModel /></Suspense>
+      <Suspense fallback={<TableSkeleton />}><RecentLogs /></Suspense>
+    </>
+  );
+}
 ```
 
 ✅ **Answer:** "`loading.tsx` wraps a route segment in Suspense, so the layout shows immediately with a skeleton while data loads, and the HTML streams in when ready. For finer control I put `<Suspense>` around each slow widget so a slow logs query doesn't block the cost cards. `error.tsx` is an error boundary for the segment with a `reset()` retry, and `not-found.tsx` handles `notFound()`."
